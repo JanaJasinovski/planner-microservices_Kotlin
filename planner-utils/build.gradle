@@ -1,0 +1,45 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+    id "org.jetbrains.kotlin.plugin.spring" version "1.6.10" // для корректного создания spring бинов из котлин классов
+    id "org.jetbrains.kotlin.plugin.jpa" version "1.6.10" // для корректной работы hibernate/jpa с kotlin
+    id "org.jetbrains.kotlin.plugin.allopen" version "1.6.10" // делает все классы kotlin open, а не final
+
+}
+
+group = 'ru.javabegin.micro.planner'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'ru.javabegin.micro.planner:planner-entity'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+
+    // lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // для корректной работы kotlin классов в spring приложении
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+
+
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+}
+
