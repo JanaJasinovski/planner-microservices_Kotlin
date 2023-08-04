@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3454aedc-9fae-49ad-9837-d78f12933c3b" name="Changes" comment="" />
+    <list default="true" id="3454aedc-9fae-49ad-9837-d78f12933c3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-todo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-todo/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planner-todo/src/test/java/ru/javabegin/micro/planner/todo/PlannerTodoApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,18 +40,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="planner-microservices" type="f1a62948:ProjectNode" />
-                <item name="planner-utils" type="2d1252cf:ModuleNode" />
+                <item name="planner-users" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="planner-microservices" type="f1a62948:ProjectNode" />
-                <item name="planner-utils" type="2d1252cf:ModuleNode" />
+                <item name="planner-users" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="planner-microservices" type="f1a62948:ProjectNode" />
-                <item name="planner-utils" type="2d1252cf:ModuleNode" />
+                <item name="planner-users" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -53,7 +62,17 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2TVcvAJoSVxWOv93VNjDY9f0qEG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,10 +81,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/test/planner/planner-microservices/planner-users",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.PlannerTodoApplicationKt">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\planner\planner-microservices\planner-users" />
+      <recent name="D:\test\planner\planner-microservices\planner-todo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PlannerConfigApplication">
     <configuration name="PlannerConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.javabegin.micro.planner.plannerconfig.PlannerConfigApplication" />
       <module name="planner-config.main" />
@@ -79,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="planner-microservices [:planner-utils:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="planner-microservices [:planner-todo:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -90,7 +117,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":planner-utils:build" />
+            <option value=":planner-todo:build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,18 +127,71 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PlannerTodoApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.javabegin.micro.planner.todo.PlannerTodoApplicationKt" />
-      <module name="planner-todo.main" />
+    <configuration name="planner-microservices [:planner-users:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":planner-users:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="planner-microservices" />
+      <shortenClasspath name="ARGS_FILE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="planner-todo.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="planner-todo/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="planner-users.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="planner-users/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PlannerTodoApplicationKt" />
         <item itemvalue="Application.PlannerConfigApplication" />
-        <item itemvalue="Gradle.planner-microservices [:planner-utils:build]" />
+        <item itemvalue="Docker.planner-users.postgres: Compose Deployment" />
+        <item itemvalue="Gradle.planner-microservices [:planner-users:build]" />
+        <item itemvalue="Docker.planner-todo.postgres: Compose Deployment" />
+        <item itemvalue="Gradle.planner-microservices [:planner-todo:build]" />
       </list>
     </recent_temporary>
   </component>
